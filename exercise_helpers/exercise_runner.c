@@ -3,9 +3,9 @@
 //
 
 #include <stdio.h>
-#include "exercise_helper.h"
+#include "exercise_runner.h"
 
-void print_exercise_line(int exercise_num, void (*exercise)()) {
+void run_exercise(int exercise_num, void (*exercise)()) {
     printf("*********** exercise %d **************\n\n", exercise_num);
     (*exercise)();
     printf("\n*************************************\n\n");

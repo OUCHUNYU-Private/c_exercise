@@ -7,4 +7,4 @@
 
 #endif //PROJECT_1_EXERCISE_HELPER_H
 
-void print_exercise_line(int exercise_num, void (*exercise)());
+void run_exercise(int exercise_num, void (*exercise)());

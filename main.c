@@ -2,14 +2,16 @@
 // Created by Chunyu Ou on 11/12/17.
 //
 
-#include "exercise_helpers/exercise_helper.h"
+#include "exercise_helpers/exercise_runner.h"
 #include "basic_exercises/exercise_1.h"
 #include "basic_exercises/exercise_2.h"
+#include "basic_exercises/exercise_3.h"
 
 int main() {
 
-    print_exercise_line(1, &exercise_1);
-    print_exercise_line(2, &exercise_2);
+    run_exercise(1, &exercise_1);
+    run_exercise(2, &exercise_2);
+    run_exercise(3, &exercise_3);
 
     return 0;
 }

@@ -2,6 +2,15 @@
 // Created by Chunyu Ou on 11/12/17.
 //
 
+/**
+ * Write a C program to print your name, date of birth. and mobile number.
+ *
+ * Expected Output:
+ * Name   : Alexandra Abramov
+ * DOB    : July 14, 1975
+ * Mobile : 99-9999999999
+ */
+
 #include <stdio.h>
 #include "exercise_1.h"
 
