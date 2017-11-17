@@ -24,7 +24,7 @@
 
 static void print_hash(int count) {
 
-    char* hash_str = malloc(count + 1 * sizeof(char));
+    char *hash_str = malloc(count + 1 * sizeof(char));
 
     for (int i = 0; i < count; ++i) {
         strcat(hash_str, "#");
