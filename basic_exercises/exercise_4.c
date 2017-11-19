@@ -19,7 +19,7 @@ char *reverse_str(const char *target_str, size_t size) {
     char *result = malloc(size);
 
     for (int i = 0; i < size; i++) {
-        result[i] = target_str[size - 1 - i];
+        result[i] = target_str[size - sizeof(char) - i];
     }
 
     return result;
