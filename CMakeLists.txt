@@ -11,6 +11,6 @@ set(
         basic_exercises/exercise_2.c basic_exercises/exercise_2.h
         basic_exercises/exercise_3.c basic_exercises/exercise_3.h
         basic_exercises/exercise_4.c basic_exercises/exercise_4.h
-        basic_exercises/exercise_5.c basic_exercises/exercise_5.h)
+        basic_exercises/exercise_5.c basic_exercises/exercise_5.h basic_exercises/exercise_6.c basic_exercises/exercise_6.h)
 
 add_executable(c_exercises ${SOURCE_FILES})
